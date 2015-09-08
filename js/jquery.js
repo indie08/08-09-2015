@@ -14,9 +14,9 @@
 	
 	
 	$(document).ready(function(){
- 		$("#miboton").click(function(){
+ 		$('#miboton').click(function(){
 		$('#title0').fadeIn('fast'),
-    	$("#title0").html("<p>Música</p>");
+    	$('#title0').html("<p>Música</p>");
  });
 });	
 

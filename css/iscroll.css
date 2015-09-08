@@ -12,7 +12,7 @@ ul,li {
 #wrapper {
 	position: absolute;
 	z-index: 1;
-	top:50%;
+	top:40%;
 	bottom: 45px;
 	width: 100%;
 	height:auto;
