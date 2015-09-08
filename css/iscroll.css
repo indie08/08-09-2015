@@ -10,7 +10,7 @@ ul,li {
 #wrapper {
 	position: absolute;
 	z-index: 1;
-	top:50%;
+	top:49%;
 	bottom: 43px;
 	width: 100%;
 	height: auto;
@@ -58,10 +58,9 @@ ul,li {
 	margin-left:6%;
 	background-position:top;
 }
-#scroller li a {
+#scroller li p {
 	z-index:1;
 	color:white;
-	text-decoration:none;
 	text-align:center;
 	font-weight: bold ;
 	font-size: 16px;
@@ -72,12 +71,6 @@ ul,li {
 	height:7em;
 	margin-left:27%;
 }
-#scroller li a img {
-	z-index:1;
-	width:50%;
-	height:7em;
-	margin-left:27%;
-}
-#scoller li div{
+#scoller li{
 	width:auto;
 	height:auto;}
