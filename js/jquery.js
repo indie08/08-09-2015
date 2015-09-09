@@ -13,70 +13,223 @@
 	});
 	
 	
-	$(document).ready(function(){
- 		$('#miboton').click(function(){
-		$('#title0').fadeIn('fast'),
-    	$('#title0').html("<p>Música</p>");
- });
-});	
 
 	$(document).ready(function(){
- 		$("#boton").click(function(){
+ 		$('#cineclub').click(function(){
 		$('#title0').fadeIn('fast'),
     	$("#title0").html("<p>Cineclub</p>");
 		});
      
 }),
 	$(document).ready(function(){
-    	$('#boton').click(function(){
+    	$('#cineclub').click(function(){
 			$("#rightTotal").animate({"margin-left": "-100%"});
     }),
 	
 	$(document).ready(function() {
-		$('#boton').click(function(evento) {
+		$('#cineclub').click(function(evento) {
 			$('#back-btn').fadeIn('fast');
 				});
 			});			
 });
-	$(document).on("ready", main);
-	
-	function cargarNota(url){
-		$("#rightTotal").text("Cargando....");
-		$("#rightTotal").load(url);
-	}
-	function main(){
-		$("#boton").on("click",function(){
-			cargarNota("http://www.farodeoriente.org/prueba/cineclub.html");
-			});
-		
-	}
 	
 $(document).ready(function(){
-   $("#boton").click(function(evento){
+   $("#cineclub").click(function(evento){
       evento.preventDefault();
 	  $('#rightTotal').text('Cargando....');
       $("#rightTotal").load("http://www.farodeoriente.org/prueba/cineclub.html");
    });
 });
 
+	$(document).ready(function(){
+ 		$('#musica').click(function(){
+		$('#title0').fadeIn('fast'),
+    	$('#title0').html("<p>Música</p>");
+ });
+});	
+
+	$(document).ready(function(){
+    	$('#musica').click(function(){
+			$("#rightTotal").animate({"margin-left": "-100%"});
+    }),
+	
+	$(document).ready(function() {
+		$('#musica').click(function(evento) {
+			$('#back-btn').fadeIn('fast');
+				});
+			});			
+});
+
 $(document).ready(function(){
-   $("#miboton").click(function(evento){
+   $("#musica").click(function(evento){
       evento.preventDefault();
 	  $('#rightTotal').text('Cargando....');
       $("#rightTotal").load("http://www.farodeoriente.org/prueba/musica.html");
    });
 });
+
 	$(document).ready(function(){
-    	$('#miboton').click(function(){
+ 		$('#especiales').click(function(){
+		$('#title0').fadeIn('fast'),
+    	$('#title0').html("<p>Especiales</p>");
+ });
+});	
+
+	$(document).ready(function(){
+    	$('#especiales').click(function(){
 			$("#rightTotal").animate({"margin-left": "-100%"});
     }),
 	
 	$(document).ready(function() {
-		$('#miboton').click(function(evento) {
+		$('#especiales').click(function(evento) {
 			$('#back-btn').fadeIn('fast');
 				});
 			});			
 });
+
+$(document).ready(function(){
+   $('#especiales').click(function(evento){
+      evento.preventDefault();
+	  $('#rightTotal').text('Cargando....');
+      $("#rightTotal").load("http://www.farodeoriente.org/prueba/especial.html");
+   });
+});
+
+	$(document).ready(function(){
+ 		$('#infantil').click(function(){
+		$('#title0').fadeIn('fast'),
+    	$('#title0').html("<p>Especiales</p>");
+ });
+});	
+
+	$(document).ready(function(){
+    	$('#infantil').click(function(){
+			$("#rightTotal").animate({"margin-left": "-100%"});
+    }),
+	
+	$(document).ready(function() {
+		$('#infantil').click(function(evento) {
+			$('#back-btn').fadeIn('fast');
+				});
+			});			
+});
+
+$(document).ready(function(){
+   $('#infantil').click(function(evento){
+      evento.preventDefault();
+	  $('#rightTotal').text('Cargando....');
+      $("#rightTotal").load("http://www.farodeoriente.org/prueba/infantil.html");
+   });
+});
+
+	$(document).ready(function(){
+ 		$('#literatura').click(function(){
+		$('#title0').fadeIn('fast'),
+    	$('#title0').html("<p>Especiales</p>");
+ });
+});	
+
+	$(document).ready(function(){
+    	$('#literatura').click(function(){
+			$("#rightTotal").animate({"margin-left": "-100%"});
+    }),
+	
+	$(document).ready(function() {
+		$('#literatura').click(function(evento) {
+			$('#back-btn').fadeIn('fast');
+				});
+			});			
+});
+
+$(document).ready(function(){
+   $('#literatura').click(function(evento){
+      evento.preventDefault();
+	  $('#rightTotal').text('Cargando....');
+      $("#rightTotal").load("http://www.farodeoriente.org/prueba/literatura.html");
+   });
+});
+
+	$(document).ready(function(){
+ 		$('#galeria').click(function(){
+		$('#title0').fadeIn('fast'),
+    	$('#title0').html("<p>Especiales</p>");
+ });
+});	
+
+	$(document).ready(function(){
+    	$('#galeria').click(function(){
+			$("#rightTotal").animate({"margin-left": "-100%"});
+    }),
+	
+	$(document).ready(function() {
+		$('#galeria').click(function(evento) {
+			$('#back-btn').fadeIn('fast');
+				});
+			});			
+});
+
+$(document).ready(function(){
+   $('#galeria').click(function(evento){
+      evento.preventDefault();
+	  $('#rightTotal').text('Cargando....');
+      $("#rightTotal").load("http://www.farodeoriente.org/prueba/galerias.html");
+   });
+});
+
+	$(document).ready(function(){
+ 		$('#artes').click(function(){
+		$('#title0').fadeIn('fast'),
+    	$('#title0').html("<p>Especiales</p>");
+ });
+});	
+
+	$(document).ready(function(){
+    	$('#artes').click(function(){
+			$("#rightTotal").animate({"margin-left": "-100%"});
+    }),
+	
+	$(document).ready(function() {
+		$('#artes').click(function(evento) {
+			$('#back-btn').fadeIn('fast');
+				});
+			});			
+});
+
+$(document).ready(function(){
+   $('#artes').click(function(evento){
+      evento.preventDefault();
+	  $('#rightTotal').text('Cargando....');
+      $("#rightTotal").load("http://www.farodeoriente.org/prueba/artes-escenicas.html");
+   });
+});
+
+	$(document).ready(function(){
+ 		$('#clubhouse').click(function(){
+		$('#title0').fadeIn('fast'),
+    	$('#title0').html("<p>Especiales</p>");
+ });
+});	
+
+	$(document).ready(function(){
+    	$('#clubhouse').click(function(){
+			$("#rightTotal").animate({"margin-left": "-100%"});
+    }),
+	
+	$(document).ready(function() {
+		$('#clubhouse').click(function(evento) {
+			$('#back-btn').fadeIn('fast');
+				});
+			});			
+});
+
+$(document).ready(function(){
+   $('#clubhouse').click(function(evento){
+      evento.preventDefault();
+	  $('#rightTotal').text('Cargando....');
+      $("#rightTotal").load("http://www.farodeoriente.org/prueba/clubhouse.html");
+   });
+});
+
 
 $(document).ready(function(){
    var refreshId = setInterval(rightTotal, 30000);
