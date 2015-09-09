@@ -58,6 +58,9 @@ ul,li {
 	font-weight: bold ;
 	font-size: 16px;
 	}
+#scroller div a{
+		text-decoration:none
+}
 #scroller div a  img {
 	width:50%;
 	height:7em;
