@@ -98,7 +98,7 @@ $(document).ready(function(){
 	$(document).ready(function(){
  		$('#infantil').click(function(){
 		$('#title0').fadeIn('fast'),
-    	$('#title0').html("<p>Especiales</p>");
+    	$('#title0').html("<p>Faro infantil</p>");
  });
 });	
 
@@ -125,7 +125,7 @@ $(document).ready(function(){
 	$(document).ready(function(){
  		$('#literatura').click(function(){
 		$('#title0').fadeIn('fast'),
-    	$('#title0').html("<p>Especiales</p>");
+    	$('#title0').html("<p>Literatura</p>");
  });
 });	
 
@@ -152,7 +152,7 @@ $(document).ready(function(){
 	$(document).ready(function(){
  		$('#galeria').click(function(){
 		$('#title0').fadeIn('fast'),
-    	$('#title0').html("<p>Especiales</p>");
+    	$('#title0').html("<p>Galería</p>");
  });
 });	
 
@@ -179,7 +179,7 @@ $(document).ready(function(){
 	$(document).ready(function(){
  		$('#artes').click(function(){
 		$('#title0').fadeIn('fast'),
-    	$('#title0').html("<p>Especiales</p>");
+    	$('#title0').html("<p>Artes escénicas</p>");
  });
 });	
 
@@ -206,7 +206,7 @@ $(document).ready(function(){
 	$(document).ready(function(){
  		$('#clubhouse').click(function(){
 		$('#title0').fadeIn('fast'),
-    	$('#title0').html("<p>Especiales</p>");
+    	$('#title0').html("<p>Clubhouse</p>");
  });
 });	
 
