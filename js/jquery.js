@@ -232,6 +232,6 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-   var refreshId = setInterval('load-async', 30000);
-   $.ajaxSetup({ cache: true });
+   var refreshId = setInterval('load-async', 3000);
+   $.ajaxSetup({ cache: false });
  });

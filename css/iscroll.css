@@ -10,8 +10,8 @@ ul,li {
 #wrapper {
 	position: absolute;
 	z-index: 1;
-	top:49%;
-	bottom: 43px;
+	top:40%;
+	bottom: 9%;
 	width: 100%;
 	height: auto;
 	background: none;
@@ -45,7 +45,7 @@ ul,li {
 	float:left;
 	display:block;
 	width:40%;
-	height:20%;
+	height:35%;
 	margin-top:0;
 	background:none;
 	font-size: 14px;
@@ -56,12 +56,12 @@ ul,li {
 	color:white;
 	text-align:center;
 	font-weight: bold ;
-	font-size: 16px;
+	font-size: 24px;
 	}
 
 #scroller div input {
 	width:50%;
-	height:7em;
+	height:100%;
 	margin-left:27%;
 	outline:none;
 }
